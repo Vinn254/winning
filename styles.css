@@ -125,7 +125,7 @@ img {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--dark-blue);
 }
@@ -602,7 +602,7 @@ section {
 .image-wrapper {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 450px;
 }
 
 .image-placeholder {
