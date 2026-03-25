@@ -241,7 +241,7 @@ img {
 .menu-toggle .bar {
     width: 25px;
     height: 3px;
-    background: var(--dark-blue);
+    background: var(--dark-blue-light);
     border-radius: 3px;
     transition: var(--transition-normal);
 }
