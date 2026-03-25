@@ -228,13 +228,19 @@ function initContactForm() {
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitBtn.disabled = true;
             
-            // Simulate API call
+            // Create WhatsApp message
+            const phoneNumber = '254734590249';
+            const message = `Name: ${encodeURIComponent(data.name)}%0AEmail: ${encodeURIComponent(data.email)}%0APhone: ${encodeURIComponent(data.phone || 'Not provided')}%0AService: ${encodeURIComponent(data.service || 'Not specified')}%0AMessage: ${encodeURIComponent(data.message)}`;
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+            
+            // Open WhatsApp
             setTimeout(function() {
-                showFormMessage('Thank you for your message! We will get back to you soon.', 'success');
+                window.open(whatsappUrl, '_blank');
+                showFormMessage('Opening WhatsApp to send your message...', 'success');
                 form.reset();
                 submitBtn.innerHTML = originalText;
                 submitBtn.disabled = false;
-            }, 2000);
+            }, 1000);
         });
     }
 }
