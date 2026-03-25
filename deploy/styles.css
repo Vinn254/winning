@@ -25,6 +25,8 @@
     
     /* Accent Colors */
     --accent-gold: #F6AD55;
+    --whatsapp-green: #25D366;
+    --whatsapp-green-dark: #1DA851;
     --success: #48BB78;
     --error: #F56565;
     
@@ -478,7 +480,7 @@ img {
     right: 30px;
     width: 60px;
     height: 60px;
-    background: var(--primary-orange);
+    background: var(--whatsapp-green);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -492,7 +494,7 @@ img {
 
 .whatsapp-float:hover {
     transform: scale(1.1);
-    background: var(--primary-orange-dark);
+    background: var(--whatsapp-green-dark);
 }
 
 /* ========================================
