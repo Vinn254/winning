@@ -180,6 +180,55 @@ img {
     color: var(--primary-orange);
 }
 
+/* Navigation Dropdown */
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown > .nav-link i {
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--white);
+    min-width: 200px;
+    box-shadow: var(--shadow-md);
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: var(--transition-normal);
+    z-index: 100;
+    padding: 10px 0;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu li {
+    padding: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: var(--dark-gray);
+    font-size: 0.9rem;
+    transition: var(--transition-fast);
+}
+
+.dropdown-menu a:hover {
+    background: var(--primary-orange);
+    color: var(--white);
+}
+
 /* Mobile Menu Toggle */
 .menu-toggle {
     display: none;
