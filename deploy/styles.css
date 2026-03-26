@@ -11,9 +11,9 @@
     --primary-orange-dark: #E55A2B;
     
     /* Secondary Colors */
-    --dark-blue: #061322;
-    --dark-blue-light: #0D1F35;
-    --dark-blue-dark: #020810;
+    --dark-blue: #02060C;
+    --dark-blue-light: #050B14;
+    --dark-blue-dark: #000000;
     
     /* Neutral Colors */
     --white: #FFFFFF;
@@ -1057,9 +1057,14 @@ section {
    Contact Section
    ======================================== */
 .contact {
-    background: var(--dark-blue-dark);
+    background: rgba(10, 25, 47, 0.95);
     position: relative;
     overflow: hidden;
+}
+
+.contact .section-title,
+.contact .section-subtitle {
+    color: var(--white);
 }
 
 .contact::before {
