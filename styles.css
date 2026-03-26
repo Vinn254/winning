@@ -11,9 +11,9 @@
     --primary-orange-dark: #E55A2B;
     
     /* Secondary Colors */
-    --dark-blue: #1A365D;
-    --dark-blue-light: #2C5282;
-    --dark-blue-dark: #0F2744;
+    --dark-blue: #0D1F35;
+    --dark-blue-light: #1B3A5C;
+    --dark-blue-dark: #061020;
     
     /* Neutral Colors */
     --white: #FFFFFF;
@@ -1065,25 +1065,25 @@ section {
 .contact::before {
     content: '';
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 150px;
-    height: 150px;
-    background: radial-gradient(circle, var(--primary-orange) 4px, transparent 4px);
-    background-size: 20px 20px;
-    opacity: 0.4;
+    top: 30px;
+    left: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: -25px 0 0 0 var(--primary-orange);
+    opacity: 0.5;
 }
 
 .contact::after {
     content: '';
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 150px;
-    height: 150px;
-    background: radial-gradient(circle, var(--primary-orange) 4px, transparent 4px);
-    background-size: 20px 20px;
-    opacity: 0.4;
+    bottom: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: -25px 0 0 0 var(--primary-orange);
+    opacity: 0.5;
 }
 
 .contact .section-title,
