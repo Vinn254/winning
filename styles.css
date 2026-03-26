@@ -1057,7 +1057,7 @@ section {
    Contact Section
    ======================================== */
 .contact {
-    background: rgba(4, 28, 61, 0.5);
+    background: var(--dark-blue);
     position: relative;
     overflow: hidden;
 }
