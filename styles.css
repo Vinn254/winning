@@ -543,7 +543,7 @@ section {
    About Section
    ======================================== */
 .about {
-    background: rgba(26, 54, 93, 0.15);
+    background: rgba(38, 105, 199, 0.15);
 }
 
 .about-grid {
@@ -668,7 +668,7 @@ section {
    Services Section
    ======================================== */
 .services {
-    background: rgba(26, 54, 93, 0.15);
+    background: rgba(38, 105, 199, 0.15);
 }
 
 .services-grid {
@@ -783,7 +783,7 @@ section {
    Team Section
    ======================================== */
 .team {
-    background: rgba(26, 54, 93, 0.15);
+    background: rgba(38, 105, 199, 0.15);
     padding: 80px 0;
 }
 
