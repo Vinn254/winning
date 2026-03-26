@@ -19,7 +19,7 @@
     --white: #FFFFFF;
     --off-white: #E8F0F8;
     --light-gray: #E2E8F0;
-    --gray: #718096;
+    --gray: #1b365e;
     --dark-gray: #2D3748;
     --black: #1A202C;
     
@@ -1057,7 +1057,7 @@ section {
    Contact Section
    ======================================== */
 .contact {
-    background: rgba(4, 28, 61, 0.3);
+    background: rgba(4, 28, 61, 0.5);
     position: relative;
     overflow: hidden;
 }
