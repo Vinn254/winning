@@ -543,7 +543,7 @@ section {
    About Section
    ======================================== */
 .about {
-    background: rgba(26, 54, 93, 0.05);
+    background: rgba(26, 54, 93, 0.15);
 }
 
 .about-grid {
@@ -668,7 +668,7 @@ section {
    Services Section
    ======================================== */
 .services {
-    background: var(--off-white);
+    background: rgba(26, 54, 93, 0.15);
 }
 
 .services-grid {
