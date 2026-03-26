@@ -543,7 +543,7 @@ section {
    About Section
    ======================================== */
 .about {
-    background: var(--off-white);
+    background: rgba(26, 54, 93, 0.05);
 }
 
 .about-grid {
@@ -776,7 +776,7 @@ section {
    Portfolio Section
    ======================================== */
 .portfolio {
-    background: var(--off-white);
+    background: rgba(26, 54, 93, 0.05);
 }
 
 /* ========================================
@@ -898,7 +898,7 @@ section {
    News Section
    ======================================== */
 .news {
-    background: var(--off-white);
+    background: rgba(26, 54, 93, 0.05);
     padding: 80px 0;
 }
 
