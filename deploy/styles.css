@@ -1067,10 +1067,10 @@ section {
     position: absolute;
     top: 30px;
     left: 30px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    box-shadow: -25px 0 0 0 var(--primary-orange);
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--primary-orange) 5px, transparent 5px);
+    background-size: 25px 25px;
     opacity: 0.5;
 }
 
@@ -1079,10 +1079,10 @@ section {
     position: absolute;
     bottom: 30px;
     right: 30px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    box-shadow: -25px 0 0 0 var(--primary-orange);
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--primary-orange) 5px, transparent 5px);
+    background-size: 25px 25px;
     opacity: 0.5;
 }
 
