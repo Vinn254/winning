@@ -15,6 +15,9 @@
     --dark-blue-light: #1B3A5C;
     --dark-blue-dark: #061020;
     
+    /* Dark Navy Blue - News Box */
+    --dark-navy: #1F3556;
+    
     /* Neutral Colors */
     --white: #FFFFFF;
     --off-white: #E8F0F8;
@@ -104,10 +107,11 @@ img {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: var(--white);
+    background: rgba(6, 98, 226, 0.15);
     box-shadow: var(--shadow-sm);
     transition: var(--transition-normal);
     padding: 15px 0;
+    backdrop-filter: blur(10px);
 }
 
 .navbar.scrolled {
@@ -561,11 +565,12 @@ section {
 
 .about-card {
     background: var(--white);
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     box-shadow: var(--shadow-sm);
     transition: var(--transition-normal);
     border-left: 4px solid var(--primary-orange);
+    min-height: auto;
 }
 
 .about-card:hover {
@@ -577,13 +582,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: linear-gradient(135deg, var(--primary-orange), var(--primary-orange-light));
-    border-radius: 12px;
+    border-radius: 10px;
     color: var(--white);
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
 }
 
 .about-card h3 {
@@ -898,7 +903,7 @@ section {
    News Section
    ======================================== */
 .news {
-    background: rgba(6, 98, 226, 0.15);
+    background: #1F3556;
     padding: 80px 0;
 }
 
@@ -907,7 +912,7 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
-    background: var(--white);
+    background: #1F3556;
     border-radius: 30px;
     padding: 40px;
     box-shadow: var(--shadow-md);
@@ -930,12 +935,13 @@ section {
 
 .news-details {
     padding: 20px;
+    background: transparent;
 }
 
 .news-tag {
     display: inline-block;
-    background: var(--primary-orange);
-    color: var(--white);
+    background: var(--white);
+    color: #1F3556;
     padding: 8px 20px;
     border-radius: 50px;
     font-size: 0.85rem;
@@ -946,11 +952,11 @@ section {
 .news-details h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: var(--dark-blue);
+    color: var(--white);
 }
 
 .news-details p {
-    color: var(--gray);
+    color: rgba(255, 255, 255, 0.85);
     margin-bottom: 25px;
     line-height: 1.8;
 }
