@@ -1063,7 +1063,7 @@ section {
    Contact Section
    ======================================== */
 .contact {
-    background: rgba(6, 98, 226, 0.15);
+    background: var(--dark-blue);
     position: relative;
     overflow: hidden;
 }
